@@ -33,7 +33,7 @@ public class ActionServlet extends HttpServlet {
 		String edad = request.getParameter("edad");
 		
 		if (!nombre.equals("") && !apellido.equals("") && !edad.equals("")) {
-			// Creo el objeto persona y lo aÃ±ado al arrayList
+			// Creo el objeto persona y lo añado al arrayList
 			Persona persona = new Persona(nombre, apellido, edad);
 			personas.add(persona);
 		}
